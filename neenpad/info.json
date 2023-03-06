@@ -1,0 +1,39 @@
+{
+    "manufacturer": "Jacob Thompson",
+    "keyboard_name": "neenpad",
+    "maintainer": "oden42",
+    "bootloader": "caterina",
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 1], "label":"Num Lock", "x": 1, "y": 0 },
+                { "matrix": [0, 2], "label":"/", "x": 2, "y": 0 },
+                { "matrix": [0, 3], "label":"*", "x": 3, "y": 0 },
+                { "matrix": [0, 4], "label":"-", "x": 4, "y": 0 },
+                { "matrix": [1, 1], "label":"7", "x": 1, "y": 1 },
+                { "matrix": [1, 2], "label":"8", "x": 2, "y": 1 },
+                { "matrix": [1, 3], "label":"9", "x": 3, "y": 1 },
+				{ "matrix": [1, 4], "label":"+", "x": 4, "y": 1, "h":2},
+                { "matrix": [2, 0], "label":"Rotary", "x": 0, "y": 2 },
+                { "matrix": [2, 1], "label":"4", "x": 1, "y": 2 },
+                { "matrix": [2, 2], "label":"5", "x": 2, "y": 2 },
+                { "matrix": [2, 3], "label":"6", "x": 3, "y": 2 },
+                { "matrix": [3, 0], "label":"Fn1", "x": 0, "y": 3 },
+                { "matrix": [3, 1], "label":"1", "x": 1, "y": 3 },
+                { "matrix": [3, 2], "label":"2", "x": 2, "y": 3 },
+				{ "matrix": [3, 3], "label":"3", "x": 3, "y": 3 },
+				{ "matrix": [3, 4], "label":"Enter", "x": 4, "y": 3, "h":2},
+                { "matrix": [4, 0], "label":"Fn2", "x": 0, "y": 4 },
+                { "matrix": [4, 1], "label":"0", "x": 1, "y": 4, "w":2},
+				{ "matrix": [4, 3], "label":".", "x": 3, "y": 4 }
+            ]
+        }
+    }
+}
