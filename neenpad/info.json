@@ -1,14 +1,14 @@
 {
     "manufacturer": "Jacob Thompson",
-    "keyboard_name": "neenpad",
+    "keyboard_name": "NeenPad",
     "maintainer": "oden42",
     "bootloader": "caterina",
     "processor": "atmega32u4",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "pid": "0x0001",
+        "vid": "0x4A54"
     },
     "layouts": {
         "LAYOUT": {
@@ -20,7 +20,7 @@
                 { "matrix": [1, 1], "label":"7", "x": 1, "y": 1 },
                 { "matrix": [1, 2], "label":"8", "x": 2, "y": 1 },
                 { "matrix": [1, 3], "label":"9", "x": 3, "y": 1 },
-				{ "matrix": [1, 4], "label":"+", "x": 4, "y": 1, "h":2},
+				{ "matrix": [1, 4], "label":"+", "x": 4, "y": 2, "h":2},
                 { "matrix": [2, 0], "label":"Rotary", "x": 0, "y": 2 },
                 { "matrix": [2, 1], "label":"4", "x": 1, "y": 2 },
                 { "matrix": [2, 2], "label":"5", "x": 2, "y": 2 },

@@ -44,16 +44,21 @@ OPT_DEFS += -DBOOTLOADER_SIZE=4096
 # Build Options
 #   comment out to disable the options.
 #
-BOOTMAGIC_ENABLE = no	# Virtual DIP switch configuration(+1000)
-MOUSEKEY_ENABLE = no	# Mouse keys(+4700)
-EXTRAKEY_ENABLE = yes	# Audio control and System control(+450)
-CONSOLE_ENABLE = no	# Console for debug(+400)
-COMMAND_ENABLE = no    # Commands for debug and configuration
-SLEEP_LED_ENABLE = no  # Breathing sleep LED during USB suspend
-NKRO_ENABLE = no		# USB Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
-BACKLIGHT_ENABLE = no  # Enable keyboard backlight functionality
-AUDIO_ENABLE = yes
-RGBLIGHT_ENABLE = no
-OLED_ENABLE = yes
-OLED_DRIVER = SSD1306    # Enable OLED Screen
-WPM_ENABLE = yes
+LTO_ENABLE = yes
+BOOTMAGIC_ENABLE = no		# Virtual DIP switch configuration(+1000)
+MOUSEKEY_ENABLE = no		# Mouse keys(+4700)
+EXTRAKEY_ENABLE = yes		# Audio control and System control(+450)
+CONSOLE_ENABLE = no			# Console for debug(+400)
+COMMAND_ENABLE = no    		# Commands for debug and configuration
+# SLEEP_LED_ENABLE = no  		# Breathing sleep LED during USB suspend
+NKRO_ENABLE = no			# USB Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
+# BACKLIGHT_ENABLE = no  		# Enable keyboard backlight functionality
+AUDIO_ENABLE = no
+# RGBLIGHT_ENABLE = yes		# Enable RGB per-key lights
+RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_DRIVER = WS2812
+ENCODER_ENABLE = yes        # Enable encoder
+# ENCODER_MAP_ENABLE = yes
+OLED_ENABLE = yes			# Enable OLED Screen
+OLED_DRIVER = SSD1306    	# Enable OLED Screen Driver
+WPM_ENABLE = yes			# Enable Words Per Minute counter
