@@ -44,5 +44,6 @@
 				"4,3"
 			]
 		]
-	}
+	},
+	"menus": ["qmk_rgb_matrix"]
 }
